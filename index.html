@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./3fe15b27-f194-4b64-8c4b-57afa32cb1df.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Jefferson Ramirez Posada 11°5</h1>
+            <p class="profile-summary">
+                Electronico con un enfoque en la construcción de experiencias de usuario intuitivas y funcionales. Con una sólida base en HTML, CSS y JavaScript, me dedico a crear código limpio y bien documentado. Mi pasión por la resolución de problemas me impulsa a superar desafíos y a mejorar constantemente mis habilidades.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:Jefferramirez2009@gmail.com">Jefferramirez2009@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573105057441" target="_blank" rel="noopener noreferrer">+57 3105057441</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Tecnico Electronico | Sena</h4>
+                    <p>Tecnico Electronico | Año de Finalización: 2025</p>
+                    <P>Descripción: Programa intensivo enfocado en los fundamentos del desarrollo de creacion de circuitos.</P>
+                </li>
+                <li>
+                    <h4>Tecnico Electronico | CASD J.P.P</h4>
+                    <p>Electronico| Año de Finalización: 2025</p>
+                    <p>Descripción: Formación académica en comprencion, modificacion y creacion de estructuras de circuitos electronicos.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Venta de complementos electronicos</h4>
+                    <p>Enero 2024 - Diciembre 2025.</p>
+                </li>
+                <li>
+                    <h4>Arreglo de productos electronicos</h4>
+                    <p>Julio 2024 - diciembre 2025.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>programacion de Arduino</li>
+                    <li>Soldadura de estaño</li>
+                    <li>Creacion de circuitos electronicos</li>
+                    <li>aplicacion basica de componentes electronicos</li>
+                    <li>Programacion basica</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>calidad de trabajo de manera individual</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./384be76b-108c-49d6-bcb0-0649314da163.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.tiktok.com/@jefferxth" target="_blank" class="linktree-link"><strong>tiktok</strong></a>
+            <a href="https://www.instagram.com/jefferxth/" target="_blank" class="linktree-link"><strong>Instagram</strong></a>
+            <a href="http://wa.me/+573105057441" target="_blank" class="linktree-link"><strong>whatsapp</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Jefferson <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
